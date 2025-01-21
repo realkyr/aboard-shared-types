@@ -27,3 +27,13 @@ export interface PostQuery extends BaseQuery {
   community?: string; // Community filter (e.g., "history")
   createdBy?: string; // Creator filter (e.g., "realkyr")
 }
+
+export enum CommunityType {
+  'History' = 'history',
+  'Food' = 'food',
+  'Pets' = 'pets',
+  'Health' = 'health',
+  'Fashion' = 'fashion',
+  'Exercise' = 'exercise',
+  'Others' = 'others',
+}
