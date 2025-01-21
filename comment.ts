@@ -7,7 +7,7 @@
 //   "postId": "moJnAZ5HQUjZpraqBkqT"
 // }
 
-export interface CommentType {
+export interface CommentResponse {
   id: string;
   content: string;
   createdAt: string;
