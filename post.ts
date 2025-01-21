@@ -1,9 +1,9 @@
-export interface Post {
+export interface PostType {
   id: string;
   community: string;
   content: string;
   createdAt: Date;
   createdBy: string;
-  title: string;
+  topic: string;
   updatedAt: Date;
 }
