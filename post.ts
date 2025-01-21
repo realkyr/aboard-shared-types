@@ -6,4 +6,5 @@ export interface PostType {
   createdBy: string;
   topic: string;
   updatedAt: Date;
+  commentsAmount: number;
 }
