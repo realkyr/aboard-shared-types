@@ -23,7 +23,7 @@ export interface PostResponse {
 }
 
 export interface PostQuery extends BaseQuery {
-  query: string; // Search query text
-  community: string; // Community filter (e.g., "history")
-  createdBy: string; // Creator filter (e.g., "realkyr")
+  query?: string; // Search query text
+  community?: string; // Community filter (e.g., "history")
+  createdBy?: string; // Creator filter (e.g., "realkyr")
 }
